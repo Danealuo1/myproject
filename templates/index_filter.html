@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<img src="{{avatar |default('https://avatar.csdn.net/D/B/C/3_core___java.jpg')}}" alt="">
+
+<hr>
+<p>评论数：({{ contents|length }})</p>
+<ul>
+    {% for content in contents %}
+        <li>
+            <a href="#">{{ content.user }}</a>
+
+            <p>{{ content.comment }}</p>
+        </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

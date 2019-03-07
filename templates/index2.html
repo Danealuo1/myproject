@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    {# {% for k,v in user.items() %} #}
+    {#    <p>{{k}}:{{v}}</p>  #}
+    {# {% endfor %} #}
+
+    {# jinjia注释语法    #}
+    {# {% for website in websites %} #}
+     {#   <p>{{website}}</p>    #}
+    {#  {% endfor %}  #}
+
+    {#  写一个表格 table表格标签 tr标签代表一行   #}
+    <table>
+        <thead>
+            <th>书名</th>
+            <th>作者</th>
+            <th>价格</th>
+        </thead>
+        <tbody>
+            {% for book in books %}
+            <tr>
+                <td>{{book.name}}</td>
+                <td>{{book.author}}</td>
+                <td>{{book.price}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+
+</body>
+</html>

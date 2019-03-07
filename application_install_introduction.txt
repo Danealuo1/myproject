@@ -1,0 +1,30 @@
+1.mysql-python中间件的介绍和安装：
+windows下载地址：
+在https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+下载mysql-python文件MySQL_python‑1.2.5‑cp27‑none‑win_amd64.whl
+将cp后面的数字改成python解释器对应的版本号，例如我的python解释器是3.7的版本，
+就需要27改成37进行安装
+cd到文件下载的目录，命令行安装：
+pip install MySQL_python‑1.2.5‑cp37‑none‑win_amd64.whl
+即可安装成功
+
+2.flask-sqlAlchemy的介绍与安装：
+ORM： object relationship mapping（模型关系映射）
+flask-sqlalchemy是一套ORM框架
+ORM的好处： 可以让我们操作数据库跟操作对象是一样的。很方便。
+一个表抽象成一个类，一条数据抽象成该类的一个对象。
+安装： pip install flask-sqlalchemy
+
+3.flask-sqlalchemy的使用：
+1)初始化和设置数据库配置信息：
+使用flask_sqlalchemy中的SQLAlchemy进行初始化：
+代码如下：
+from flsk_sqlalchemy import SQLAlchemy
+app = Flask(__name__)
+db = SQLAlchemy(app)
+2)设置配置信息：
+
+
+
+
+
