@@ -24,7 +24,42 @@ app = Flask(__name__)
 db = SQLAlchemy(app)
 2)设置配置信息：
 
+首先从sqlalchemy中导入create_engine，用这个函数来创建引擎，
+然后用engine.connect()来连接数据库。
+比较重要的一点是，通过create_engine函数的时候，需要传递一个
+满足某种格式的字符串，对这个字符串的格式来进行解释：
+dialect+driver://username:password@host:port/database
+dialect是数据库的实现，比如MySQL、SQLite。并且转换成小写。
+driver是python对应的驱动，如果不指定，会选择默认的驱动
 
+第一步：
+使用flask-sqlalchemy中的SQLAlchemy进行初始化：
+from flask_sqlalchemy import SQLAlchemy
+app = Flask(__name__)
+db = SQAlchemy(app)
+第二步：
+在config.py文件中添加以下配置信息
+DIALECT = 'mysql'
+DRIVER = 'pymysql'
+USERNAME = 'root'
+PASSWORD = 'root'
+HOST = '127.0.0.1'
+PORT = '3306'
+DATABASE = 'db_demo1'
 
+# dialect+driver://username:password@host:port/database
+SQLALCHEMY_DATABASE_URI = "{}+{}://{}:{}@{}:{}/{}?charset=utf8".format(DIALECT,DRIVER,USERNAME,PASSWORD,HOST,PORT,DATABASE)
 
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+第三步：
+在app文件中，添加配置文件：
+app = Flask(__name__)
+app.config.from_object(config)
+db=SQLAlchemy(app)
+
+第四步：
+做测试，看是否有问题
+db.create_all()
+没有报错，说明配置没有问题
 
