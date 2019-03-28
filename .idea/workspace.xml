@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9e3dc2-9e4a-4ac4-9988-b69b6409781f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/g_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_post_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prctice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hook_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/context_processor.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/g_demo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/get_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hook_function.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exts.py" beforeDir="false" afterPath="$PROJECT_DIR$/exts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models_sep.py" beforeDir="false" afterPath="$PROJECT_DIR$/models_sep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/g_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject" beforeDir="false" afterPath="$PROJECT_DIR$/myproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/db_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db_demo1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/db_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db_demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/session_demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +30,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/g_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="289">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#31#83#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hook_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#40#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/context_processor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/hook_function.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -77,33 +100,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database_demo2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2575">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database_demo1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application_install_introduction.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1625">
@@ -122,8 +118,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -138,9 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/index.html.py" />
-        <option value="$PROJECT_DIR$/redirect.py" />
-        <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/template01.py" />
         <option value="$PROJECT_DIR$/templates/index1.html" />
@@ -188,14 +181,17 @@
         <option value="$PROJECT_DIR$/templates/g_demo.html" />
         <option value="$PROJECT_DIR$/login_log.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/templates/hook_function.html" />
+        <option value="$PROJECT_DIR$/templates/context_processor.html" />
+        <option value="$PROJECT_DIR$/hook_function.py" />
         <option value="$PROJECT_DIR$/g_demo.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1021" />
+    <option name="x" value="981" />
     <option name="y" value="5" />
-    <option name="width" value="899" />
+    <option name="width" value="939" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -249,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.g_demo">
+  <component name="RunManager" selected="Python.hook_function">
     <configuration name="g_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="models_sep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hook_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,7 +300,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models_sep.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hook_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hook_function" />
         <item itemvalue="Python.g_demo" />
         <item itemvalue="Python.get_post_demo" />
         <item itemvalue="Python.session_demo" />
         <item itemvalue="Python.prctice" />
-        <item itemvalue="Python.models_sep" />
       </list>
     </recent_temporary>
   </component>
@@ -379,10 +375,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="817" y="4" width="719" height="800" extended-state="0" />
+    <frame x="785" y="4" width="751" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18155198" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25734267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -406,27 +402,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-653">
-          <caret line="860" selection-start-line="860" selection-end-line="860" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/sql/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="1376" selection-start-line="1376" selection-end-line="1376" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/ext/declarative/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19500">
@@ -709,12 +684,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hook_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/context_processor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/g_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="289">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#31#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hook_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#40#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
