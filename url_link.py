@@ -20,8 +20,10 @@
 url链接： 使用url_for(视图函数名称)可以反转成url
 加载静态文件：
 1.语法： url_for('static',filename='路径')
-2.静态文件，flask会从static文件夹中开始寻找，所以不需要再写static这个
-路径了（可以加载css文件、js文件、image文件）
+url_for(文件夹的名字, filename='文件所在的路径')
+
+**2.静态文件，flask会从static文件夹中开始寻找，所以不需要再写static这个
+路径了（可以加载css文件、js文件、image文件）  
 
 例如：
 加载css文件
